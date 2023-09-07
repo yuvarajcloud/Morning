@@ -1,0 +1,9 @@
+
+/usr/lib/systemd/system/jenkins.service  > to change the port 
+
+systemctl stop jenkins 
+systemctl start Jenkins
+
+or 
+
+systemctl restart jenkins
