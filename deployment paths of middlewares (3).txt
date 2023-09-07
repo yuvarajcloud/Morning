@@ -1,0 +1,13 @@
+             Linux old     linuxupdated     ubuntu      ubuntuupdated         DeploymentPath
+
+
+1) Apache      httpd        httpd         apache2       apache2               Both = /var/www/html/index.html
+
+
+2) nginx       nginx        nginx         nginx          nginx                linux  = /usr/share/nginx/html/index.html
+                                                                              ubuntu = /var/www/html
+
+3) Tomcat                   install tomcat from google                         /opt/tomcat/bin/ = ./startup.sh
+                       ( download tomcat for ubuntu ) - wget                     /opt/tomcat/webapps/ROOT/index.jsp
+
+
